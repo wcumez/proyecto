@@ -1,0 +1,32 @@
+=== Resumen de Conteo por Palabra ===
+Elemento                  Palabra              Conteo    
+Palabras Reservadas       protocol             1         
+Palabras Reservadas       var                  3         
+Palabras Reservadas       func                 2         
+Palabras Reservadas       class                1         
+Palabras Reservadas       return               1         
+Palabras Reservadas       let                  1         
+Variables                 Vehiculo             2         
+Variables                 velocidadMaxima      6         
+Variables                 Int                  3         
+Variables                 get                  1         
+Variables                 describir            3         
+Variables                 String               4         
+Variables                 Coche                2         
+Variables                 modelo               5         
+Variables                 init                 1         
+Variables                 self                 2         
+Variables                 miCoche              2         
+Variables                 print                1         
+Signos de Agrupación      {                    5         
+COLON                     :                    8         
+Signos de Agrupación      }                    5         
+Signos de Agrupación      (                    6         
+Signos de Agrupación      )                    6         
+ARROW                     ->                   2         
+COMMA                     ,                    2         
+ERROR                     .                    3         
+Operadores Aritméticos    =                    3         
+Cadenas                   "El coche \(modelo) puede alcanzar hasta \(velocidadMaxima) km/h." 1         
+Cadenas                   "Tesla Model S"      1         
+Números                   250                  1         

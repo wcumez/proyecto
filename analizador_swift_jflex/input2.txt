@@ -1,0 +1,8 @@
+// Función que calcula el área de un círculo
+func areaCirculo(radio: Double) -> Double {
+    return Double.pi * pow(radio, 2)
+}
+
+// Uso de la función
+let radio = 5.0
+print("El área del círculo es \(areaCirculo(radio: radio))")

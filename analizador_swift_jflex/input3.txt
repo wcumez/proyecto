@@ -1,0 +1,22 @@
+// Uso de programación orientada a objetos y protocolos
+protocol Vehiculo {
+    var velocidadMaxima: Int { get }
+    func describir() -> String
+}
+
+class Coche: Vehiculo {
+    var velocidadMaxima: Int
+    var modelo: String
+    
+    init(modelo: String, velocidadMaxima: Int) {
+        self.modelo = modelo
+        self.velocidadMaxima = velocidadMaxima
+    }
+    
+    func describir() -> String {
+        return "El coche \(modelo) puede alcanzar hasta \(velocidadMaxima) km/h."
+    }
+}
+
+let miCoche = Coche(modelo: "Tesla Model S", velocidadMaxima: 250)
+print(miCoche.describir())
